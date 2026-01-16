@@ -1,0 +1,132 @@
+ .banner-cap {
+    font-family: 'Tinos', serif;
+ }
+
+ #layer-1 {
+    background-color: #c00233;
+    background-image: url('images/banner.png');
+    height: 708.1807861328125px;
+    background-position: center center;
+}
+ul li a, .social-handles img {
+    transition: color 0.5s ease;
+}
+ul li a:hover {
+    color: #c00233 !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+.social-icon {
+    transition: height 0.3s;
+}
+.social-icon:hover {
+    height: 30px;
+}
+#main-cont {
+    background: linear-gradient(to right, #BCECFA, #EDFBFF);
+    padding: 90px 0;
+}
+.G-define{
+    margin: 90px 0;
+}
+
+
+.text-content {
+    background-color: #E5F8FE;
+}
+
+.img-content {
+    background: linear-gradient(to right, #EDFBFF, #BCECFA);
+}
+.email-btn {
+    padding: 0 100px;
+}
+
+.j {
+    background-image: url('images/left_d.png');
+    background-repeat: no-repeat;
+}
+
+#footer-cont, .input-col {
+    background-color: #C00233;
+    color: #ffffff;
+}
+
+#text-col{
+    color: #e76083;
+ }
+
+
+/* Center container adjustments */
+.m-nav-center {
+    gap: 1rem;                 
+    flex-wrap: wrap;            
+}
+
+/* Desktop nav links */
+.custom-navbar {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar .nav-item {
+    margin: 0;
+}
+
+.custom-navbar .nav-link {
+    padding: 0 0.4rem;          
+}
+
+/* offcanvas */
+.offcanvas-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    z-index: 1050;
+    transition: right 0.3s ease;
+    padding: 1.5rem;
+    /* background-color: #c00233; */
+
+}
+
+.offcanvas-menu.show {
+    right: 0;
+}
+
+/* Offcanvas links */
+.offcanvas-links li {
+    margin: 1rem 0;
+}
+
+/* Mobile adjustments */
+@media(max-width: 767px) {
+    .custom-navbar {
+        display: none !important;
+    }
+    .nav_cont {
+        padding: 10px 30px;
+    }
+    #img {
+        margin-right: 50px;
+    }
+}
+
+/* Desktop adjustments */
+@media(min-width: 768px) {
+    .hamburger, .cancel, .offcanvas-menu {
+        display: none !important;
+    }
+    .nav_cont {
+        padding: 30px 30px;
+    }
+}
+
+
+
